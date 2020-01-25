@@ -13,7 +13,7 @@
 
   <?php include 'sections/nav.php';?>
 
-  <div class="py-5" id="blog" style="	background-image: url(../img/bkgnd-contato.png);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+  <div class="py-5" id="blog" style="	background-image: url(img/bkgnd-contato.png);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
     <div class="container">
       <div class="row">
         <div class="col-md-10">
