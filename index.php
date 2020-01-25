@@ -9,12 +9,12 @@
   <link rel="icon" href="./img/fav.png">
 </head>
 
-<body style="">
+<body>
   <?php include 'sections\nav.php';?>
   <div id="main" class="py-5 align-items-center d-flex bg-primary h-100 text-left" style="	background-image: url(img/home_hero.jpg);	background-size: cover;	background-position: center;	background-repeat: no-repeat;">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-8 mx-auto" style="">
+        <div class="col-md-8 mx-auto">
           <div class="row">
             <div class="col-md-12"><img class="img-fluid d-block float-left" src="img/deskify_logo.svg"></div>
           </div>
@@ -44,7 +44,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4" style="">
+        <div class="col-md-4">
           <div class="card"> <img class="card-img-top" src="img/card-img-01.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Facilitar processos</h4>
@@ -55,7 +55,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4" style="">
+        <div class="col-md-4">
           <div class="card"> <img class="card-img-top" src="img/card-img-02.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Conectar pessoas</h4>
@@ -65,7 +65,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4" style="">
+        <div class="col-md-4">
           <div class="card"> <img class="card-img-top" src="img/card-img-03.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Processar informações</h4>
@@ -103,7 +103,7 @@
   <div class="py-3 text-center" id="contato" style="	background-image: url(img/bkgnd-contato.png);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
     <div class="container">
       <div class="row">
-        <div class="mx-auto p-4 col-lg-7" style="">
+        <div class="mx-auto p-4 col-lg-7">
           <h1 class="mb-4">Contato</h1>
           <?php
 
@@ -198,7 +198,7 @@
   <?php include 'sections/footer.php';?>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" style=""></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -5,7 +5,7 @@
         </div>
         <div class="col-md-6 p-3">
           <div class="row">
-            <div class="col-md-12 mb-3" style="">
+            <div class="col-md-12 mb-3">
               <h5 contenteditable="true"> <b>Redes Sociais</b><br></h5><a class="btn text-white ml-0 mr-2" href="#" style="background:#0976b4" target="_blank"><i class="fa fa-linkedin fa-fw fa-1x py-1"></i></a><a class="btn text-white mx-2" href="#" style="background:#25d366" target="_blank"><i class="fa fa-whatsapp fa-fw fa-1x py-1"></i></a><a class="btn text-white mx-2" href="#" style="background:#e52d27" target="_blank"><i class="fa fa-youtube-play fa-fw fa-1x py-1"></i></a><a class="btn text-white mx-2" href="#" style="background:#FF6900" target="_blank"><i class="fa fa-envelope fa-fw fa-1x py-1"></i></a>
             </div>
           </div>
