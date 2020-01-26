@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <?php include 'sections\nav.php';?>
+  <?php include 'sections/nav.php';?>
   <div id="main" class="py-5 align-items-center d-flex bg-primary h-100 text-left" style="	background-image: url(img/home_hero.jpg);	background-size: cover;	background-position: center;	background-repeat: no-repeat;">
     <div class="container py-5">
       <div class="row">
