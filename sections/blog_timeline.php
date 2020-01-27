@@ -1,34 +1,16 @@
-<!-- http://feeds.feedburner.com/FodaBagarai -->
-
 <?php
 
-// URL location of your feed
-$feedUrl = "http://feeds.feedburner.com/FodaBagarai";
-$feedContent = "";
+//var_dump($feedContent);
 
-// Fetch feed from URL
-$curl = curl_init();
-curl_setopt($curl, CURLOPT_URL, $feedUrl);
-curl_setopt($curl, CURLOPT_TIMEOUT, 3);
-curl_setopt($curl, CURLOPT_FOLLOWLOCATION, true);
-curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-curl_setopt($curl, CURLOPT_HEADER, false);
+foreach ($feedContent->entry as $entry) {
 
-// FeedBurner requires a proper USER-AGENT...
-curl_setopt($curl, CURL_HTTP_VERSION_1_1, true);
-curl_setopt($curl, CURLOPT_ENCODING, "gzip, deflate");
-curl_setopt($curl, CURLOPT_USERAGENT, "Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.3) Gecko/2008092417 Firefox/3.0.3");
-
-$feedContent = curl_exec($curl);
-curl_close($curl);
-
-$feedContent = simplexml_load_string($feedContent);
-
-
-
-foreach($feedContent->entry as $entry) {
-    echo "<h3 class='display-4'>".$entry->title."</h3>";
-    echo "<p>".$entry->content."</p>";
+    $date = new DateTime($entry->published);
+   
+    echo "<h3 class='display-4'>" . $entry->title . "</h3>";
+    echo"<blockquote class='blockquote text-right'>";
+    echo "<footer class='blockquote-footer'>Por: <cite title='Source Title'>" . $entry->author->name . " </cite> em: " . $date->format('d/m/Y') . " às " . $date->format('H:i') . ".</footer>";
+    echo "</blockquote>";
+    echo "<p>" . $entry->content . "</p>";
     echo "<hr>";
 }
 
