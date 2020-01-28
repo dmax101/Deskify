@@ -10,7 +10,9 @@
 </head>
 
 <body>
-  <?php include 'sections/nav.php';?>
+
+  <?php include 'sections/nav.php'; ?>
+
   <div id="main" class="py-5 align-items-center d-flex bg-primary h-100 text-left" style="	background-image: url(img/home_hero.jpg);	background-size: cover;	background-position: center;	background-repeat: no-repeat;">
     <div class="container py-5">
       <div class="row">
@@ -19,16 +21,7 @@
             <div class="col-md-12"><img class="img-fluid d-block float-left" src="img/deskify_logo.svg"></div>
           </div>
           <hr>
-          <h1 class="text-primary"> O secretariado remoto pode ajudar você a focar nos problemas da sua empresa </h1><a class="btn btn-primary" href="#cartela">Saiba mais</a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5 text-center text-light bg-primary">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1>Seu sucesso é o que nos move.</h1>
+          <h1 class="text-primary"> Seu sucesso é o que nos move. </h1>
         </div>
       </div>
     </div>
@@ -38,14 +31,15 @@
       <div class="row">
         <div class="col-md-10">
           <h1 class="mb-3">O que podemos fazer por você</h1>
-          <p contenteditable="true">Mussum Ipsum, cacilds vidis litro abertis. Cevadis im ampola pa arma uma pindureta.
-            Diuretics paradis num copo é motivis de denguis. Aenean aliquam molestie leo, vitae iaculis nisl.
-            Casamentiss faiz malandris se pirulitá.</p>
+          <p>
+          O secretariado remoto pode ajudar você a focar nos problemas da sua empresa.
+          </p>
+          <a class="mb-3 btn btn-outline-primary" href="#">+ saiba mais</a>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="card"> <img class="card-img-top" src="img/card-img-01.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-01.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Facilitar processos</h4>
               <p class="card-text">Precisa se organizar? Podemos te ajudar a gerenciar seu tempo, otimizar a organização
@@ -56,7 +50,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card"> <img class="card-img-top" src="img/card-img-02.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-02.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Conectar pessoas</h4>
               <p class="card-text">Precisa prospectar? Realizar cobranças? Orçar serviços ou compras? Estreitar relações
@@ -66,7 +60,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card"> <img class="card-img-top" src="img/card-img-03.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-03.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Processar informações</h4>
               <p class="card-text">Precisa de uma pesquisa? Preparar ou revisar um documento administrativo? Atualizar
@@ -77,7 +71,7 @@
       </div>
       <div class="row pt-3">
         <div class="col-md-4">
-          <div class="card"> <img class="card-img-top" src="img/card-img-04.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-04.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Controlar recursos</h4>
               <p class="card-text">Dificuldade em controlar as contas a pagar e receber? Nós organizamos o fluxo de
@@ -86,7 +80,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card"> <img class="card-img-top" src="img/card-img-05.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-05.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Construir parcerias</h4>
               <p class="card-text">Queremos nos colocar à sua disposição para qualquer dor de cabeça. Precisando, chama
@@ -158,7 +152,7 @@
             if ($flag) {
               $response = "Não foi possível enviar!";
             } else {
-              
+
               $to = "deskifysecretariadoremoto@gmail.com";
               $sub = $subject;
 
@@ -168,8 +162,7 @@
               // More headers
               $headers .= 'From: <' . $_POST['email'] . '>' . "\r\n";
 
-              mail($to,$sub,$txt,$headers);
-
+              mail($to, $sub, $txt, $headers);
             }
           }
 
@@ -195,7 +188,7 @@
       </div>
     </div>
   </div>
-  <?php include 'sections/footer.php';?>
+  <?php include 'sections/footer.php'; ?>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
