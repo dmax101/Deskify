@@ -1,0 +1,18 @@
+/* CSS Document */
+#main {
+  background-image: url("../img/home_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#cartela {
+  background-image: url("../img/sec_light.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+#contato {
+  background-image: url("../img/bkgnd-contato.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }

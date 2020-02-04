@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
   <link rel="stylesheet" href="./default/theme.css">
+	<link rel="stylesheet" href="./css/custom.css">
   <link rel="icon" href="./img/fav.png">
 </head>
 
@@ -13,7 +14,7 @@
 
   <?php include 'sections/nav.php'; ?>
 
-  <div id="main" class="py-5 align-items-center d-flex bg-primary h-100 text-left" style="	background-image: url(img/home_hero.jpg);	background-size: cover;	background-position: center;	background-repeat: no-repeat;">
+  <div class="py-5 align-items-center d-flex bg-primary h-100 text-left" id="main">
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 mx-auto">
@@ -26,7 +27,7 @@
       </div>
     </div>
   </div>
-  <div class="py-5" style="	background-image: linear-gradient(to bottom, #E8B79D, #F5D17D);	background-position: top left;	background-size: 100%;	background-repeat: repeat;" id="cartela">
+  <div class="py-5" id="cartela">
     <div class="container">
       <div class="row">
         <div class="col-md-10">
@@ -34,67 +35,64 @@
           <p>
           O secretariado remoto pode ajudar você a focar nos problemas da sua empresa.
           </p>
-          <a class="mb-3 btn btn-outline-primary" href="#">+ saiba mais</a>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-01.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-01.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Facilitar processos</h4>
               <p class="card-text">Precisa se organizar? Podemos te ajudar a gerenciar seu tempo, otimizar a organização
                 de trabalho da sua empresa, gerenciar seus e-mails e seus arquivos digitais e te lembrar de todos os
-                prazos e compromissos importantes.<br></p> <a href="#" class="btn btn-outline-primary text-left">+ saiba
-                mais</a>
+                prazos e compromissos importantes.<br></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-02.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-02.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Conectar pessoas</h4>
               <p class="card-text">Precisa prospectar? Realizar cobranças? Orçar serviços ou compras? Estreitar relações
                 nas redes sociais? Organizar um evento? A partir de um script construído com você, nós fazemos
-                isso!<br><br></p> <a href="#" class="btn btn-outline-primary">+ saiba mais</a>
+                isso!<br><br></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-03.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-03.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Processar informações</h4>
               <p class="card-text">Precisa de uma pesquisa? Preparar ou revisar um documento administrativo? Atualizar
-                cadastros? Fazer o follow-up de uma reunião? Passa pra gente!<br><br><br></p> <a href="#" class="btn btn-outline-primary">+ saiba mais</a>
+                cadastros? Fazer o follow-up de uma reunião? Passa pra gente!<br><br><br></p>
             </div>
           </div>
         </div>
       </div>
       <div class="row pt-3">
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-04.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-04.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Controlar recursos</h4>
               <p class="card-text">Dificuldade em controlar as contas a pagar e receber? Nós organizamos o fluxo de
-                caixa pra você!<br><br><br><br></p> <a href="#" class="btn btn-outline-primary">+ saiba mais</a>
+                caixa pra você!<br><br><br><br></p>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/card-img-05.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-05.png" alt="Card image cap">
             <div class="card-body">
               <h4 class="card-title">Construir parcerias</h4>
               <p class="card-text">Queremos nos colocar à sua disposição para qualquer dor de cabeça. Precisando, chama
                 a gente! Mesmo se não estiver ao nosso alcance resolver o seu problema, nós te ajudamos a encontrar o
-                profissional certo para a sua demanda, ok?</p> <a href="#" class="btn btn-outline-primary">+ saiba
-                mais</a>
+                profissional certo para a sua demanda, ok?</p>
             </div>
           </div>
         </div>
         <div class="col-md-4"></div>
       </div>
-    </div>
+    </div>	
   </div>
-  <div class="py-3 text-center" id="contato" style="	background-image: url(img/bkgnd-contato.png);	background-position: center;	background-size: cover;	background-repeat: no-repeat;">
+  <div class="py-5 text-center" id="contato">
     <div class="container">
       <div class="row">
         <div class="mx-auto p-4 col-lg-7">

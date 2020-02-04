@@ -1,9 +1,9 @@
-<!-- http://feeds.feedburner.com/FodaBagarai -->
+<!-- http://feeds.feedburner.com/Deskify -->
 
 <?php
 
 // URL location of your feed
-$feedUrl = "http://feeds.feedburner.com/FodaBagarai";
+$feedUrl = "http://feeds.feedburner.com/Deskify";
 $feedContent = "";
 
 // Fetch feed from URL
