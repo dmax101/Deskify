@@ -33,7 +33,9 @@
         <div class="col-md-10">
           <h1 class="mb-3">O que podemos fazer por você</h1>
           <p>
-          O secretariado remoto pode ajudar você a focar nos problemas da sua empresa.
+          O secretariado remoto pode ajudar você a se concentrar melhor nas questões que realmente precisam da sua energia, enquanto delega as atividades secundárias para um profissional capacitado. <br><br>
+			 <button type="button" class="btn btn-primary">Saiba mais</button>
+			  <br>
           </p>
         </div>
       </div>
@@ -96,7 +98,7 @@
     <div class="container">
       <div class="row">
         <div class="mx-auto p-4 col-lg-7">
-          <h1 class="mb-4">Contato</h1>
+          <h1 class="mb-4 text-light">Contato</h1>
           <?php
 
 
