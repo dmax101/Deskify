@@ -43,7 +43,7 @@
         <div class="col-md-4">
           <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-01.png" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title">Facilitar processos</h4>
+              <h4 class="card-title">Facilitar processos </h4>
               <p class="card-text">Precisa se organizar? Podemos te ajudar a gerenciar seu tempo, otimizar a organização
                 de trabalho da sua empresa, gerenciar seus e-mails e seus arquivos digitais e te lembrar de todos os
                 prazos e compromissos importantes.<br></p>
