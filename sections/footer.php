@@ -29,6 +29,9 @@
 			  <a class="btn text-white mx-1" href="https://web.whatsapp.com/send?phone=553599973455&text" style="background:#00E676" target="_blank">
 				  <i class="fa fa-whatsapp fa-fw fa-1x py-1" aria-hidden="true"></i>
             </a>
+			  <a class="btn text-white mx-1" href="https://www.instagram.com/deskifysecretariado/" style="background:#FF1D25" target="_blank">
+				  <i class="fa fa-instagram fa-fw fa-1x py-1" aria-hidden="true"></i>
+            </a>
           </div>
         </div>
         <div class="row">
@@ -41,7 +44,8 @@
     </div>
     <div class="row">
       <div class="col-md-12 text-center">
-        <p class="mb-0 mt-2">© 2020 Deskify. Todos os direitos reservados</p>
+        <p class="mb-0 mt-2">© 2020 Deskify. Todos os direitos reservados.</p><br>
+		<p>As imagens contidas neste site foram obtidas em <a href="https://www.freepik.com/" target="_blank">freepik.com</a></p>
       </div>
     </div>
   </div>

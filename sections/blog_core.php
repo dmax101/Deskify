@@ -24,4 +24,19 @@ curl_close($curl);
 
 $feedContent = simplexml_load_string($feedContent);
 
+//var_dump($feedContent)
+
+//Criando array de posts
+$lista_posts = array();
+
+foreach ($feedContent->entry as $entry) {
+		
+		//var_dump($entry);
+
+        $url = $entry->link[4]['href'];
+		$postname = pathinfo(parse_url($url)['path'])['filename'];
+		
+		array_push($lista_posts,$postname);        
+}
+
 ?>

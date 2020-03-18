@@ -14,7 +14,7 @@
 
   <?php include 'sections/nav.php'; ?>
 
-  <div class="py-5 align-items-center d-flex bg-primary h-100 text-left" id="main">
+  <div class="py-5 align-items-center d-flex h-100 text-left" id="main">
     <div class="container py-5">
       <div class="row">
         <div class="col-md-8 mx-auto">
@@ -34,14 +34,14 @@
           <h1 class="mb-3">O que podemos fazer por você</h1>
           <p>
           O secretariado remoto pode ajudar você a se concentrar melhor nas questões que realmente precisam da sua energia, enquanto delega as atividades secundárias para um profissional capacitado. <br><br>
-			 <button type="button" class="btn btn-primary">Saiba mais</button>
+			  <a class="btn btn-primary" href="blog_pages.php">Saiba mais</a>
 			  <br>
           </p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-01.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-01.png" alt="Secretariado Remoto | Facilitar processos">
             <div class="card-body">
               <h4 class="card-title">Facilitar processos </h4>
               <p class="card-text">Precisa se organizar? Podemos te ajudar a gerenciar seu tempo, otimizar a organização
@@ -51,7 +51,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-02.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-02.png" alt="Secretariado Remoto | Conectar pessoas">
             <div class="card-body">
               <h4 class="card-title">Conectar pessoas</h4>
               <p class="card-text">Precisa prospectar? Realizar cobranças? Orçar serviços ou compras? Estreitar relações
@@ -61,7 +61,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-03.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-03.png" alt="Secretariado Remoto | Processar informações">
             <div class="card-body">
               <h4 class="card-title">Processar informações</h4>
               <p class="card-text">Precisa de uma pesquisa? Preparar ou revisar um documento administrativo? Atualizar
@@ -72,7 +72,7 @@
       </div>
       <div class="row pt-3">
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-04.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-04.png" alt="Secretariado Remoto | Controlar recursos">
             <div class="card-body">
               <h4 class="card-title">Controlar recursos</h4>
               <p class="card-text">Dificuldade em controlar as contas a pagar e receber? Nós organizamos o fluxo de
@@ -81,7 +81,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-05.png" alt="Card image cap">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-05.png" alt="Secretariado Remoto | Construir parcerias">
             <div class="card-body">
               <h4 class="card-title">Construir parcerias</h4>
               <p class="card-text">Queremos nos colocar à sua disposição para qualquer dor de cabeça. Precisando, chama
@@ -94,7 +94,47 @@
       </div>
     </div>	
   </div>
-  <div class="py-5 text-center" id="contato">
+
+	  <div class="py-5" id="clientes">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h1 class="mb-3">O que precisamos de você</h1>
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-07.png" alt="Secretariado Remoto | Facilitar processos">
+            <div class="card-body">
+              <h4 class="card-title">O seu briefing </h4>
+              <p class="card-text">Precisamos conhecer as características da sua empresa, o seu perfil de negócios e suas necessidades para começarmos nossa parceria com o pé direito! Você pode acessar o nosso modelo de briefing através do google forms (<a href="https://docs.google.com/forms/d/1tg5JvJUzaU3VnS4L6AW68LSdhIIX6GrhdMazNqpTRAc/viewform?chromeless=1&edit_requested=true" target="_blank">link</a>), ou, se preferir, fazer o download dele aqui (<a href="downloads/Briefing- Deskify Secretariado Remoto.pdf" target="_blank">link</a>).<br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-06.png" alt="Secretariado Remoto | Conectar pessoas">
+            <div class="card-body">
+              <h4 class="card-title">Aceitação do contrato</h4>
+              <p class="card-text">Dependendo do grau de formalidade ou complexidade do serviço, o serviço poderá ser aceito expressamente através de simples troca de e-mails ou através de contrato específico a ser encaminhado por e-mail ou correio.<br><br></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-2"> <img class="card-img-top" src="img/cards/card-img-08.png" alt="Secretariado Remoto | Processar informações">
+            <div class="card-body">
+              <h4 class="card-title">Pagamento</h4>
+              <p class="card-text">Você pode contratar nossos serviços por hora, por tarefa ou por pacote periódico. Após a análise do briefing, lhe enviaremos um orçamento já com a melhor opção pra você! O pagamento pode ser feito com toda a segurança do PagSeguro, ou através de depósito/transferência bancária.<br><br><br></p>
+				<img src="img/b4353ce959fe29ea618ab528cf67cd38.png" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>	
+  </div>
+  
+	
+	<div class="py-5 text-center" id="contato">
     <div class="container">
       <div class="row">
         <div class="mx-auto p-4 col-lg-7">

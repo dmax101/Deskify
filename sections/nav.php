@@ -7,8 +7,8 @@
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"> <a class="nav-link" href="index.php#main">INÍCIO</a> </li>
           <li class="nav-item"> <a class="nav-link" href="index.php#cartela">SERVIÇOS</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="blog.php">BLOG</a> </li>
-          <li class="nav-item"> <a class="nav-link" href="cliente.php">CLIENTE</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="blog_pages.php">BLOG</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="index.php#clientes">CLIENTE</a> </li>
         </ul> <a class="btn navbar-btn ml-md-2 btn-outline-primary" href="index.php#contato">CONTATO</a>
       </div>
     </div>

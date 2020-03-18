@@ -34,10 +34,10 @@ $body-color-inverse: invert($body-color) !default;
 $link-color: #FF6900;
 
 // Fonts
-$font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-base: "Helvetica Neue", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $headings-font-family: $font-family-base;
 $display-font-family: $font-family-base;
-$font-weight-normal: 200;
+$font-weight-normal: bold;
 $headings-font-weight: 200;
 $lead-font-size:   1.30rem;
 

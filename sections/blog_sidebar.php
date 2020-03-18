@@ -3,11 +3,13 @@
 <ul class="list-group">
     <?php
 
-    $path = "sections/blog_post.php";
+    $path = "blog_pages.php";
 
     $i = 0;
 
     foreach ($feedContent->entry as $entry) {
+		
+		//var_dump($entry);
 
         $url = $entry->link[4]['href'];
 
